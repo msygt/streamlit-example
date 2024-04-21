@@ -142,4 +142,3 @@ testler=c.fetchall()
 st.table(testler)
 
 
-c.
