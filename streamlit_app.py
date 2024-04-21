@@ -134,3 +134,12 @@ if btn:
 
 st.header("Source/Kaynak Kodları")
 st.code(kod,language="python")
+
+
+c.execute("SELECT * FROM testler")
+testler=c.fetchall()
+
+st.table(testler)
+
+
+c.
