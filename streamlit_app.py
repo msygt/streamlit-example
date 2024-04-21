@@ -18,7 +18,7 @@ conn.commit()
 
 
 
-df=pd.read_csv("yorum.csv.zip",on_bad_lines="skip",delimiter=";")
+df=pd.read_csv("trend_yorum.csv.zip",on_bad_lines="skip",delimiter=";")
 
 
 def temizle(sutun):
@@ -81,7 +81,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 import string
 
-df=pd.read_csv("yorum.csv.zip",on_bad_lines="skip",delimiter=";")
+df=pd.read_csv("trend_yorum.csv.zip",on_bad_lines="skip",delimiter=";")
 
 
 def temizle(sutun):
